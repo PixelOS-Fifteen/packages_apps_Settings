@@ -87,6 +87,13 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
+    <SwitchPreferenceCompat
+        android:key="gesture_screen_off_udfps"
+        android:title="@string/ambient_display_screen_off_udfps_title"
+        android:summary="@string/ambient_display_screen_off_udfps_summary"
+        settings:keywords="@string/keywords_gesture"
+        settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController" />
+
     <Preference
         android:key="power_button_torch_summary"
         android:title="@string/power_button_torch_title"
